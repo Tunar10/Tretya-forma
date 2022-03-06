@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+    .container {
+        justify-content: center;
+        display: flex;
+
+        .d1 {
+            padding-right: 100px;
+            h1 {
+                text-align: left;
+            }
+
+            p {
+                color: grey;
+            }
+           .in{
+                padding: 20px 10px;
+                width: 95%;
+            }
+            .ca{
+                a{
+                    float: right;
+                    color: grey;
+                }
+            }
+            button{
+                padding: 10px 0px;
+                width: 100%;
+                border-radius: 3px;
+            }
+            h4{
+                text-align: center;
+                color: grey;
+            }
+        }
+        .d2{
+
+     img{
+width: 200%;
+     }
+        }
+    }
+}
